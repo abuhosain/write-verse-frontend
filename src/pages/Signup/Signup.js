@@ -34,7 +34,7 @@ const Signup = () => {
         })
     }
 
-    console.log("data: ", data)
+    // console.log("data: ", data)
     const [userError, setUserError] = useState(null);
 
     useEffect(() => {
