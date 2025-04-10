@@ -11,6 +11,7 @@ mutation login($email: String!, $password: String!) {
 `
 
 const Signin = () => {
+/* eslint-disable no-unused-vars */
 
     const [login, { data, error, loading }] = useMutation(LOGIN);
 
@@ -25,8 +26,7 @@ const Signin = () => {
             variables: data
         })
     }
-
-    console.log("data: ", data)
+ /* eslint-disable no-unused-vars */
     const [userError, setUserError] = useState(null);
 
     useEffect(() => {

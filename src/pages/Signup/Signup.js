@@ -12,6 +12,8 @@ const SIGNUP = gql`
 `
 
 const Signup = () => {
+    /* eslint-disable no-unused-vars */
+
     const [signup, { data, loading, error }] = useMutation(SIGNUP);
 
     // if (loading) return 'Submitting...';
